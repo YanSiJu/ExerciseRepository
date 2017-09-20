@@ -9,24 +9,24 @@ void  Tacke_Bus_Strategy(int start,int end);
 
         void(*Menu)();
 
-  //²Ëµ¥
+  //èœå•
 void  Bus_Query(void(*menu)())
 {
             Menu = menu;
-            printf("\n\n\n\t\t\t¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ\n");
-            printf("\t\t\t¡õ\t\t\t\t\t\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t\t\t\t\t\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t\t\t\t\t\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t\t\t ------¹«½»²éÑ¯¹ÜÀí------  \t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t\t\t\t\t\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t(1)Õ¾Õ¾²éÑ¯\t\t(2)Õ¾µã²éÑ¯\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t\t\t\t\t\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t(3)ÏßÂ·²éÑ¯\t\t\t\t\t(4)×î¶Ì¾àÀë²éÑ¯\t\t\t\t\t\t¡õ\n\n");
-            printf("\t\t\t¡õ\t(5)·µ»ØÉÏ¼¶²Ëµ¥\t\t\t\t\t\t\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t\t\t\t\t\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ\t\t\t\t\t\t\t\t\t\t¡õ\n");
-            printf("\t\t\t¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ¡õ\n");
-            printf("ÇëÊäÈëÄúµÄÑ¡Ïî:");
+            printf("\n\n\n\t\t\tâ–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡\n");
+            printf("\t\t\tâ–¡\t\t\t\t\t\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t\t\t\t\t\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t\t\t\t\t\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t\t\t ------å…¬äº¤æŸ¥è¯¢ç®¡ç†------  \t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t\t\t\t\t\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t(1)ç«™ç«™æŸ¥è¯¢\t\t(2)ç«™ç‚¹æŸ¥è¯¢\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t\t\t\t\t\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t(3)çº¿è·¯æŸ¥è¯¢\t\t\t\t\t(4)æœ€çŸ­è·ç¦»æŸ¥è¯¢\t\t\t\t\t\tâ–¡\n\n");
+            printf("\t\t\tâ–¡\t(5)è¿”å›ä¸Šçº§èœå•\t\t\t\t\t\t\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t\t\t\t\t\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡\t\t\t\t\t\t\t\t\t\tâ–¡\n");
+            printf("\t\t\tâ–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡\n");
+            printf("è¯·è¾“å…¥æ‚¨çš„é€‰é¡¹:");
             int flag,i,j,k,choose,v0 = 1,v = 0,x,y,start,end;
             VerTexType  V,W;
             ShortPathTable   D;
@@ -38,7 +38,7 @@ void  Bus_Query(void(*menu)())
             {
                         while(1)
                         {
-                            printf("ÊäÈë´íÎó,ÇëÖØĞÂÊäÈë:");
+                            printf("è¾“å…¥é”™è¯¯,è¯·é‡æ–°è¾“å…¥:");
                             scanf("%d",&choose);
                             if(1 == choose || 2 == choose || 3 == choose  || 4 == choose  || 5 == choose || 6 == choose)
                                 break;
@@ -53,7 +53,7 @@ void  Bus_Query(void(*menu)())
                             printf("error\n");
                         }
 
-                       printf("ÇëÊäÈëÆğµãÕ¾ºÍÖÕµãÕ¾:");
+                       printf("è¯·è¾“å…¥èµ·ç‚¹ç«™å’Œç»ˆç‚¹ç«™:");
                        scanf("%s%s",V.name,W.name);
                        start = LocateVex(G,V);
                        end = LocateVex(G,W);
@@ -63,7 +63,7 @@ void  Bus_Query(void(*menu)())
                             while(1)
                             {
                                 fflush(stdin);
-                                printf("ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈëÆğµãºÍÖÕµã:");
+                                printf("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥èµ·ç‚¹å’Œç»ˆç‚¹:");
                                 scanf("%s%s",V.name,W.name);
 
                                 start = LocateVex(G,V);
@@ -81,7 +81,7 @@ void  Bus_Query(void(*menu)())
 
                         if( start != end && D[v] < INFINITY)
                         {
-                                printf("%s ¡ú%s:%d m \n",G.vexs[start].name,G.vexs[end].name,D[end]);
+                                printf("%s â†’%s:%d m \n",G.vexs[start].name,G.vexs[end].name,D[end]);
 
                                 for(j = 0; j < G.vexnum;j++)
                                     path[j] = p[end][j];
@@ -90,12 +90,12 @@ void  Bus_Query(void(*menu)())
 
 
                     x = a[0] ;
-                    printf("\n×¢:³¤É³´óÑ§ ¡úµÂÑÅÂ·¿Ú(132 136 901)£º±íÊ¾ ³¤É³´óÑ§ ¡úµÂÑÅÂ·¿Ú ¿É³Ë×ø132 136 901Â·¹«½»³µ\n");
+                    printf("\næ³¨:é•¿æ²™å¤§å­¦ â†’å¾·é›…è·¯å£(132 136 901)ï¼šè¡¨ç¤º é•¿æ²™å¤§å­¦ â†’å¾·é›…è·¯å£ å¯ä¹˜å132 136 901è·¯å…¬äº¤è½¦\n");
                     printf("%s",G.vexs[x].name);
                     for(j = 0; j < size - 1;j++)
                     {
                            x = a[j+1];
-                            printf(" ¡ú%s(",G.vexs[x].name);
+                            printf(" â†’%s(",G.vexs[x].name);
                             for(q = City_Buses; q; q = q->next)
                             {
                                     flag = 0;
@@ -120,13 +120,13 @@ void  Bus_Query(void(*menu)())
                         skip4(G);
                         break;
 
-               /* case 5:printf("¼´½«Ìø×ªÖÁÉÏ¼¶²Ëµ¥......");
+               /* case 5:printf("å³å°†è·³è½¬è‡³ä¸Šçº§èœå•......");
                         Sleep(5000);
                         system("cls");
                         main_menu(G);
                         break;*/
 
-                case 1:printf("ÇëÊäÈëÆğµãÕ¾ºÍÖÕµãÕ¾:");
+                case 1:printf("è¯·è¾“å…¥èµ·ç‚¹ç«™å’Œç»ˆç‚¹ç«™:");
                        scanf("%s%s",V.name,W.name);
                        start = LocateVex(G,V);
                        end = LocateVex(G,W);
@@ -137,7 +137,7 @@ void  Bus_Query(void(*menu)())
                             while(1)
                             {
                                 fflush(stdin);
-                                printf("ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈëÆğµãºÍÖÕµã:");
+                                printf("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥èµ·ç‚¹å’Œç»ˆç‚¹:");
                                 scanf("%s%s",V.name,W.name);
                                 start = LocateVex(G,V);
                                 end = LocateVex(G,W);
@@ -150,39 +150,39 @@ void  Bus_Query(void(*menu)())
                        skip4(G);
                        break;
 
-               case 5:printf("¼´½«Ìø×ªÖÁÉÏ¼¶²Ëµ¥\n");
+               case 5:printf("å³å°†è·³è½¬è‡³ä¸Šçº§èœå•\n");
                       Sleep(3000);
                       system("cls");
                       Menu();
                       break;
 
-                case 2:printf("ÇëÊäÈëÓû²éÑ¯µÄÕ¾µã:");
-                       char   Name[MAX_NAME+1];       //Õ¾µãÃû³Æ
+                case 2:printf("è¯·è¾“å…¥æ¬²æŸ¥è¯¢çš„ç«™ç‚¹:");
+                       char   Name[MAX_NAME+1];       //ç«™ç‚¹åç§°
                        scanf("%s",Name);
-                       printf("¸ÃÕ¾µãÍ£¿¿µÄ¹«½»³µÓĞ:");
+                       printf("è¯¥ç«™ç‚¹åœé çš„å…¬äº¤è½¦æœ‰:");
                        Station_Query(Name);
                        skip4(G);
                        break;
 
-                case 3:printf("ÇëÊäÈëÓû²éÑ¯µÄ¹«½»ÏßÂ·:");
+                case 3:printf("è¯·è¾“å…¥æ¬²æŸ¥è¯¢çš„å…¬äº¤çº¿è·¯:");
                        int Bus_Name;
                        scanf("%d",&Bus_Name);
-                       printf("¸Ã¹«½»ÏßÂ·¾­¹ıµÄÕ¾µãÓĞ:");
+                       printf("è¯¥å…¬äº¤çº¿è·¯ç»è¿‡çš„ç«™ç‚¹æœ‰:");
                        Line_Query(Bus_Name);
                        skip4(G);
                        break;
             }
 }
 
-         //Õ¾µã²éÑ¯:²éÑ¯Ä³¸öÕ¾µãËùÍ£¿¿µÄ¹«½»³µ
+         //ç«™ç‚¹æŸ¥è¯¢:æŸ¥è¯¢æŸä¸ªç«™ç‚¹æ‰€åœé çš„å…¬äº¤è½¦
 void  Station_Query(char   Name[MAX_NAME+1])
 {
-            //±éÀú¶¥µãÏòÁ¿Êı×é£¬ÈôÄ³¶¥µãµÄÃû×ÖÓëÓû²éÕÒµÄ¶¥µãµÄÃû×ÖÏàµÈ£¬Ôò´òÓ¡³ö¸ÃÕ¾µãËùÍ£¿¿µÄËùÓĞ¹«½»³µ
+            //éå†é¡¶ç‚¹å‘é‡æ•°ç»„ï¼Œè‹¥æŸé¡¶ç‚¹çš„åå­—ä¸æ¬²æŸ¥æ‰¾çš„é¡¶ç‚¹çš„åå­—ç›¸ç­‰ï¼Œåˆ™æ‰“å°å‡ºè¯¥ç«™ç‚¹æ‰€åœé çš„æ‰€æœ‰å…¬äº¤è½¦
         int i,j;
 
-        for(i = 0; i < G.vexnum; i++)       //±éÀú¶¥µãÏòÁ¿Êı×é
+        for(i = 0; i < G.vexnum; i++)       //éå†é¡¶ç‚¹å‘é‡æ•°ç»„
         {
-               if(!strcmp(G.vexs[i].name,Name))     //Èô²éÕÒ³É¹¦£¬Ôò´òÓ¡³öËùÓĞÕ¾µãÃû
+               if(!strcmp(G.vexs[i].name,Name))     //è‹¥æŸ¥æ‰¾æˆåŠŸï¼Œåˆ™æ‰“å°å‡ºæ‰€æœ‰ç«™ç‚¹å
                {
                     for(j = 0; j < G.vexs[i].Buses_Num; j++)
                             printf("%d   ",G.vexs[i].Buses[j]);
@@ -203,34 +203,34 @@ void  Tacke_Bus_Strategy(int start,int end)
         getPaths(start,end,Vex_Used,Paths,&PathNum);
         //printf("\n%d\n",PathNum);
 
-        //´òÓ¡µã start µ½µã end µÄËùÓĞÂ·¾¶
+        //æ‰“å°ç‚¹ start åˆ°ç‚¹ end çš„æ‰€æœ‰è·¯å¾„
         /*for(i = 0;i < PathNum;i++)
         {
 
             for(j= Paths[i].size-1;j >= 1;j--)
             {
                     v = Paths[i].nodes[j];
-                    printf("%s ¡ú",G.vexs[v].name);
+                    printf("%s â†’",G.vexs[v].name);
             }
 
             v = Paths[i].nodes[j];
             printf("%s\n",G.vexs[v].name);
         }
 */
-        printf("\n×¢:³¤É³´óÑ§ ¡úµÂÑÅÂ·¿Ú(132 136 901)£º±íÊ¾ ³¤É³´óÑ§ ¡úµÂÑÅÂ·¿Ú ¿É³Ë×ø132 136 901Â·¹«½»³µ\n");
+        printf("\næ³¨:xxå¤§å­¦ â†’xxè·¯å£(265  695 178)ï¼šè¡¨ç¤º xxå¤§å­¦ â†’xxå£ å¯ä¹˜å265  695 178è·¯å…¬äº¤è½¦\n");
         for(i = 0; i < PathNum;i++)
         {
 
             x = Paths[i].size - 1;
             v = Paths[i].nodes[x];
 
-            printf("\n\n·½°¸%d:%s",i+1,G.vexs[v].name);
+            printf("\n\næ–¹æ¡ˆ%d:%s",i+1,G.vexs[v].name);
             for(j = Paths[i].size - 1; j >= 1;j--)
             {
 
 
                 W = Paths[i].nodes[j-1];
-                printf(" ¡ú%s(",G.vexs[W].name);
+                printf(" â†’%s(",G.vexs[W].name);
                     for(p = City_Buses; p; p = p->next)
                     {
                              flag = 0;
@@ -256,25 +256,25 @@ void  Tacke_Bus_Strategy(int start,int end)
         }
 
 }
-        //¹«½»ÏßÂ·²éÑ¯:²éÑ¯Ä³Ìõ¹«½»ÏßÂ·Ëù¾­¹ıµÄÕ¾µã
+        //å…¬äº¤çº¿è·¯æŸ¥è¯¢:æŸ¥è¯¢æŸæ¡å…¬äº¤çº¿è·¯æ‰€ç»è¿‡çš„ç«™ç‚¹
 void  Line_Query(int Name)
 {
             /*
-                ±éÀú¹«½»³µÁ´±í£¬
-                ÈôÄ³¹«½»³µµÄÃû×ÖÓëÓû²éÕÒµÄ¹«½»³µÃû×ÖÏàµÈ£¬
-                Ôò´òÓ¡³öÆäÕ¾µã
+                éå†å…¬äº¤è½¦é“¾è¡¨ï¼Œ
+                è‹¥æŸå…¬äº¤è½¦çš„åå­—ä¸æ¬²æŸ¥æ‰¾çš„å…¬äº¤è½¦åå­—ç›¸ç­‰ï¼Œ
+                åˆ™æ‰“å°å‡ºå…¶ç«™ç‚¹
             */
 
         Bus *p = City_Buses;
         int j,n;
-        for(; p; p = p->next)       //±éÀúÁ´±í
+        for(; p; p = p->next)       //éå†é“¾è¡¨
         {
             if(Name == p->Bus_Name)
             {
-                for(j = 0; j < p->Station_Num; j++)     //ËÑË÷µ½Óû²éÕÒµÄ¹«½»³µ
+                for(j = 0; j < p->Station_Num; j++)     //æœç´¢åˆ°æ¬²æŸ¥æ‰¾çš„å…¬äº¤è½¦
                 {
                     n = p->stations[j];
-                    printf("%s  ",G.vexs[n].name);      //´òÓ¡ÆäÕ¾µãÃû
+                    printf("%s  ",G.vexs[n].name);      //æ‰“å°å…¶ç«™ç‚¹å
                 }
             }
             printf("\n");
@@ -288,9 +288,9 @@ void  Line_Query(int Name)
 
 void  skip4(MGraph G)
 {
-        printf("\n(1)·µ»ØÉÏ¼¶²Ëµ¥   (2)ÍË³ö³ÌĞò");
+        printf("\n(1)è¿”å›ä¸Šçº§èœå•   (2)é€€å‡ºç¨‹åº");
         int choose;
-        printf("\nÇëÊäÈëÄúµÄÑ¡Ïî:");
+        printf("\nè¯·è¾“å…¥æ‚¨çš„é€‰é¡¹:");
         fflush(stdin);
         scanf("%d",&choose);
 
@@ -299,7 +299,7 @@ void  skip4(MGraph G)
         {
             while(1)
             {
-                printf("ÊäÈë´íÎó,ÇëÖØĞÂÊäÈë:");
+                printf("è¾“å…¥é”™è¯¯,è¯·é‡æ–°è¾“å…¥:");
                 scanf("%d",&choose);
                 if(1 == choose || 2 == choose)
                     break;
@@ -310,7 +310,7 @@ void  skip4(MGraph G)
 
         if(1 == choose)
         {
-                printf("¼´½«Ìø×ªÖÁÉÏ¼¶²Ëµ¥....");
+                printf("å³å°†è·³è½¬è‡³ä¸Šçº§èœå•....");
                 Sleep(4000);
                 system("cls");
                 Bus_Query(Menu);
