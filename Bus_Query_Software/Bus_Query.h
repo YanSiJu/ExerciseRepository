@@ -90,7 +90,7 @@ void  Bus_Query(void(*menu)())
 
 
                     x = a[0] ;
-                    printf("\n注:长沙大学 →德雅路口(132 136 901)：表示 长沙大学 →德雅路口 可乘坐132 136 901路公交车\n");
+                    printf("\n注:xx大学 →xx路口(858 698 901)：表示 XX大学 →XX路口 可乘坐858 698 901路公交车\n");
                     printf("%s",G.vexs[x].name);
                     for(j = 0; j < size - 1;j++)
                     {
